@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "codeandstuff.package-json-upgrade",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "lunuan.kubernetes-templates",
+    "redvanworkshop.explorer-exclude-vscode-extension",
+    "plex.vscode-protolint",
+    "graphql.vscode-graphql",
+    "zxh404.vscode-proto3"
+  ]
+}

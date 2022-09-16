@@ -1,0 +1,5 @@
+*.config.js linguist-vendored
+**/generated/* linguist-generated
+packages/**/*.js linguist-generated
+cdk/**/*.js linguist-generated
+scripts/*.sh -linguist-detectable

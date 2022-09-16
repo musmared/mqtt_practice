@@ -1,0 +1,81 @@
+{
+  "[proto3]": {
+    "editor.defaultFormatter": "zxh404.vscode-proto3"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[handlebars]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false,
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "editor.rulers": [
+    120
+  ],
+  "prettier.printWidth": 120,
+  "eslint.packageManager": "pnpm",
+  "eslint.nodePath": ".",
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/node_modules": true,
+    "**/*.tsbuildinfo": true,
+    "**/cdk.out": true,
+    "**/.cdk.staging": true,
+    "**/.webpackCache": true,
+    "**/.serverless": true,
+    "**/.cache": true,
+    "**/.build": true,
+    "**/dist": true,
+    "**/client/**/*.js": true,
+    "**/client/**/*.d.ts": true,
+    "**/lib/**/*.js": true,
+    "**/lib/**/*.d.ts": true,
+    "**/src/**/*.js": true,
+    "**/src/**/*.d.ts": true,
+    "**/test/**/*.js": true,
+    "**/test/**/*.d.ts": true,
+    "**/.webpack": true,
+    "**/target": true,
+    "**/.idea": true,
+    "**/.scalafmt.conf": true
+  },
+  "npm.packageManager": "pnpm",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "prettier.useEditorConfig": true,
+  "git.ignoreLimitWarning": true,
+  "protoc": {
+    "options": [
+      "--proto_path=packages/common/src/_proto"
+    ]
+  },
+  "explorerExclude.backup": {},
+  "material-icon-theme.activeIconPack": "nest"
+}
