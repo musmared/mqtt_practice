@@ -1,0 +1,26 @@
+version: "3.7"
+services:
+  mosquitto:
+    image: eclipse-mosquitto
+    hostname: red-mosquitto
+    container_name: mosquitto-local
+    ports:
+      - "8883:8883"
+    volumes:
+      - /Users/musma/mqtt_practice/certs:/mosquitto/certs
+      - /Users/musma/mqtt_practice/conf:/mosquitto/config
+    restart: always
+
+  pubApp:
+    image: musmared/pub:latest
+    container_name: pub
+    ports:
+      - "3000:3000"
+    environment:
+      MQTT_URL: "mqtt://red-mosquitto:8883"
+
+  subApp:
+    image: musmared/sub:latest
+    container_name: sub
+    environment:
+      MQTT_URL: "mqtt://red-mosquitto:8883"

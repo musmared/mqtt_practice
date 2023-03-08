@@ -8,7 +8,7 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @MessagePattern('musma')
-  getNotifications(@Payload() data: number[], @Ctx() context: MqttContext) {
+  public getNotifications(@Payload() data: number[], @Ctx() context: MqttContext) {
     return this.appService.getNotifications(data, context)
   }
 }

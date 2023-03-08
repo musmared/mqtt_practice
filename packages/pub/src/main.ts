@@ -1,5 +1,7 @@
 import { Logger } from '@nestjs/common'
 import { NestFactory } from '@nestjs/core'
+import { config } from 'dotenv'
+config()
 
 import { AppModule } from './app.module'
 

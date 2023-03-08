@@ -4,7 +4,10 @@
   "private": true,
   "license": "MIT",
   "pkg": {
-    "assets": []
+    "assets": [
+      "server.crt",
+      "server.key"
+    ]
   },
   "main": "src",
   "bin": "src/main.js",
@@ -27,6 +30,7 @@
     "@nestjs/typeorm": "9.0.1",
     "builder-pattern": "^2.1.0",
     "class-transformer": "^0.5.1",
+    "dotenv": "^16.0.3",
     "joi": "^17.6.3",
     "luxon": "^3.0.4",
     "mqtt": "^4.3.7",

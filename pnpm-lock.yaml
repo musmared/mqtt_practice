@@ -85,6 +85,7 @@ importers:
       '@nestjs/typeorm': 9.0.1
       builder-pattern: ^2.1.0
       class-transformer: ^0.5.1
+      dotenv: ^16.0.3
       joi: ^17.6.3
       luxon: ^3.0.4
       mqtt: ^4.3.7
@@ -102,6 +103,7 @@ importers:
       '@nestjs/typeorm': registry.npmjs.org/@nestjs/typeorm/9.0.1_qjq66n35oxnponxi4v27jsunky
       builder-pattern: registry.npmjs.org/builder-pattern/2.1.0
       class-transformer: registry.npmjs.org/class-transformer/0.5.1
+      dotenv: registry.npmjs.org/dotenv/16.0.3
       joi: registry.npmjs.org/joi/17.6.3
       luxon: registry.npmjs.org/luxon/3.0.4
       mqtt: registry.npmjs.org/mqtt/4.3.7
@@ -121,6 +123,7 @@ importers:
       '@nestjs/typeorm': 9.0.1
       builder-pattern: ^2.1.0
       class-transformer: ^0.5.1
+      dotenv: ^16.0.3
       joi: ^17.6.3
       luxon: ^3.0.4
       mqtt: ^4.3.7
@@ -138,6 +141,7 @@ importers:
       '@nestjs/typeorm': registry.npmjs.org/@nestjs/typeorm/9.0.1_qjq66n35oxnponxi4v27jsunky
       builder-pattern: registry.npmjs.org/builder-pattern/2.1.0
       class-transformer: registry.npmjs.org/class-transformer/0.5.1
+      dotenv: registry.npmjs.org/dotenv/16.0.3
       joi: registry.npmjs.org/joi/17.6.3
       luxon: registry.npmjs.org/luxon/3.0.4
       mqtt: registry.npmjs.org/mqtt/4.3.7
